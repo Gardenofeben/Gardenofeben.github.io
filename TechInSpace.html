@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  
+<title>Tech In Space</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="FullMoon2010.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}
+
+
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}
+
+
+p.double {border-style: double;}
+
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="moon.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>INTRO</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  
+  
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Welcome</span> To Space.</h1>
+    <p>Technology in Space.</p>
+    <img src="earthLights.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Space Technology</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Space has always been apart of the unkown, leaving us humans to always be curious about it. Although the unknown, can be extremely scary, it leaves our minds to wonder about what could possibly be out there. Since our minds get the best of us, we started to develop technology that would help us learn about this beautiful yet, terrifying unknown. After numerous amounts of inventions and studies, we were able to answer a few of the questions that we believed would never know about. Hopefully, as time goes by, we will be so advanced that we will reach places that we deemed impossible to reach.
+    </p>
+    
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Few Favorites</h3>
+    <img src="Armstrong.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Neil Armstrong.</span> Astronaut.</p>
+    <p>First man to step on the moon with apollo 11.</p><br>
+    
+    <img src="Untitled-design-2020-04-13T153349.355.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Apollo 11.</span> AS-506 </p>
+    <p>Rocket that took the team of apollo 11 to the moon.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="deliveryService.jpg" style="width:100%">
+        <img src="original.jpg" style="width:100%">
+        <img src="unnamed.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="Image-3l-Russia.jpg" style="width:100%">
+        <img src="15-234.jpg" style="width:100%">
+        <img src="20211118b_image1_med.jpg" style="width:100%">
+        <img src="ibm-space-tech-business-innovation-space-exploration-iss-horizon-1024x679.jpg" style="width:100%">
+      </div>
+      
+      
+      
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+
+<h2>Second Page</h2>
+
+<a href="2ndTechInSpace.html">Next adventure</a>
+
+
+
+<h2>Third Page</h2>
+
+<a href="3rdTechInSpace.html">One Last adventure</a>
+
+
+<p class="double">Made by Alannah Pendergrass.</p>
+
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
